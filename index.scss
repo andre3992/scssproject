@@ -1,0 +1,26 @@
+@mixin thick($x) {
+    border: 1px+$x/15 solid black;
+}
+
+@mixin sizeColor($size, $color) {
+    @include thick($size);
+    border-color: $color;
+    width: $size;
+    height: $size;
+    box-shadow: $size $size 20px blue;
+    border-radius: 50%;
+}
+
+@for $i from 0 through 5 {
+    .box#{$i} {
+        $size: (1+($i/5))*40px;
+        @include sizeColor($size, red);
+        margin-left: -($size/3);
+    }
+}
+
+.container {
+    display: flex;
+    margin-top: 100px;
+    align-items: center;
+}

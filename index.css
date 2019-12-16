@@ -1,0 +1,68 @@
+.box0 {
+    border: 3.6666666667px solid black;
+    border-color: red;
+    width: 40px;
+    height: 40px;
+    box-shadow: 40px 40px 20px blue;
+    border-radius: 50%;
+    margin-left: -13.3333333333px;
+}
+
+.box1 {
+    border: 4.2px solid black;
+    border-color: red;
+    width: 48px;
+    height: 48px;
+    box-shadow: 48px 48px 20px blue;
+    border-radius: 50%;
+    margin-left: -16px;
+}
+
+.box2 {
+    border: 4.7333333333px solid black;
+    border-color: red;
+    width: 56px;
+    height: 56px;
+    box-shadow: 56px 56px 20px blue;
+    border-radius: 50%;
+    margin-left: -18.6666666667px;
+}
+
+.box3 {
+    border: 5.2666666667px solid black;
+    border-color: red;
+    width: 64px;
+    height: 64px;
+    box-shadow: 64px 64px 20px blue;
+    border-radius: 50%;
+    margin-left: -21.3333333333px;
+}
+
+.box4 {
+    border: 5.8px solid black;
+    border-color: red;
+    width: 72px;
+    height: 72px;
+    box-shadow: 72px 72px 20px blue;
+    border-radius: 50%;
+    margin-left: -24px;
+}
+
+.box5 {
+    border: 6.3333333333px solid black;
+    border-color: red;
+    width: 80px;
+    height: 80px;
+    box-shadow: 80px 80px 20px blue;
+    border-radius: 50%;
+    margin-left: -26.6666666667px;
+}
+
+.container {
+    display: flex;
+    margin-top: 100px;
+    align-items: center;
+}
+
+
+/*# sourceMappingURL=index.css.map */
